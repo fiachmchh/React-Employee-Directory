@@ -4,6 +4,6 @@ import axios from "axios";
 
 export default {
     getEmployees: function () {
-        return axios.get("https://randomuser.me/api/?inc=gender,name,nat,email,picture");
+        return axios.get("https://randomuser.me/api/?inc=name,nat,email,picture&results=10");
     }
 };
